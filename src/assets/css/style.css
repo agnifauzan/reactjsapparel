@@ -13,7 +13,7 @@ nav {
   margin-right: 0px;
   margin-left: 0px;
   font-family: "Lobster", cursive;
-  font-size: 40px;
+  font-size: 30px;
 }
 .navbar-brand p:hover {
   color: rgb(0, 0, 0);
@@ -35,6 +35,11 @@ ul li a img:hover {
 
 /* start css carousel / hero slider */
 /* css slider react */
+.slick-slider {
+  width: 1300px;
+  margin-left: 20px;
+}
+
 .slick-slide {
   height: 400px;
   box-sizing: border-box;
@@ -49,7 +54,7 @@ ul li a img:hover {
 
 .parentSlider {
   height: 500px;
-  width: 100%;
+  width: 900px;
 }
 .backgroundImage img {
   position: relative;
@@ -60,7 +65,7 @@ ul li a img:hover {
 }
 .backgroundImage button {
   position: absolute;
-  left: 560px;
+  left: 490px;
   justify-content: center;
   top: 320px;
 }
@@ -68,14 +73,14 @@ ul li a img:hover {
 .backgroundImage h2 {
   color: white;
   position: absolute;
-  left: 470px;
+  left: 400px;
   top: 150px;
 }
 .backgroundImage p {
   color: white;
   position: absolute;
-  left: 530px;
-  top: 210px;
+  left: 460px;
+  top: 200px;
   text-align: center;
 }
 .gradient1 {

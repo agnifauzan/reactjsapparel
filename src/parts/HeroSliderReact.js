@@ -18,9 +18,7 @@ class Hero extends Component {
       <Slider
         {...settings}
         style={{
-          marginTop: 140,
-          marginLeft: -160,
-          marginRight: -160,
+          marginTop: 115,
         }}
       >
         <div className="parentSlider">

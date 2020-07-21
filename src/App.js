@@ -5,7 +5,7 @@ import LandingPage from "../src/pages/landingPage";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <LandingPage />
     </div>
   );
