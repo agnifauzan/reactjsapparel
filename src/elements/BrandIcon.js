@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function BrandIcon() {
   return (
-    <Link class="navbar-brand col-4" to="#" style={{ paddingLeft: 0 }}>
-      Apparel
-    </Link>
+    <div className="col-4">
+      <a class="navbar-brand" to="#" style={{ paddingLeft: 0 }}>
+        <p>Apparel</p>
+      </a>
+    </div>
   );
 }
