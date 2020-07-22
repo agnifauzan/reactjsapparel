@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
-export default function Clothes({ data }) {
+export default function Clothes({ dataClothes }) {
   return (
     <section className="page-section" id="clothes" style={{ marginTop: 100 }}>
       <div className="container">
@@ -11,7 +11,7 @@ export default function Clothes({ data }) {
           className="row"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          {data.map((cloth, index) => {
+          {dataClothes.map((cloth, index) => {
             return (
               <div className="col-sm-3" key={`clothes${index}`}>
                 <Fade bottom delay={300 * index}>

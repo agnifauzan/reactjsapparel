@@ -1,12 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
+import Button from "../../src/elements/Button";
 
 export default function BrandIcon() {
   return (
     <div className="col-4">
-      <a className="navbar-brand" to="#" style={{ paddingLeft: 0 }}>
-        <p>Apparel</p>
-      </a>
+      <Button
+        type="link"
+        className="navbar-brand"
+        href="#"
+        style={{ paddingLeft: 0 }}
+      >
+        Apparel
+      </Button>
     </div>
   );
 }

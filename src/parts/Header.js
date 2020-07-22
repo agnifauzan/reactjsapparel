@@ -1,5 +1,7 @@
 import React from "react";
 
+import Button from "../../src/elements/Button";
+
 import BrandIcon from "../elements/BrandIcon";
 import iconClothes from "../assets/images/icon/newClothes.svg";
 import iconPants from "../assets/images/icon/newPants.svg";
@@ -8,15 +10,10 @@ import iconChart from "../assets/images/icon/iconChart.svg";
 
 import Fade from "react-reveal/Fade";
 
-import { Link } from "react-router-dom";
-
 export default function Header() {
   return (
     <Fade>
-      <nav
-        className="navbar fixed-top navbar-expand-lg navbar-light bg-light"
-        style={{ opacity: 0.9 }}
-      >
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <BrandIcon />
           <button
@@ -37,20 +34,22 @@ export default function Header() {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link to="#clothes" className="nav-link">
+                <Button type="link" href="#clothes" className="nav-link">
                   <img src={iconClothes} alt="" />
                   <span className="sr-only">(current)</span>
-                </Link>
+                </Button>
               </li>
               <li className="nav-item">
-                <Link to="#pants" className="nav-link">
+                <Button type="link" href="#clothes" className="nav-link">
                   <img src={iconPants} alt="" />
-                </Link>
+                  <span className="sr-only">(current)</span>
+                </Button>
               </li>
               <li className="nav-item">
-                <Link to="#shoes" className="nav-link">
+                <Button type="link" href="#clothes" className="nav-link">
                   <img src={iconShoes} alt="" />
-                </Link>
+                  <span className="sr-only">(current)</span>
+                </Button>
               </li>
             </ul>
           </div>
@@ -60,9 +59,10 @@ export default function Header() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="#chart" className="nav-link">
+                <Button type="link" href="#clothes" className="nav-link">
                   <img src={iconChart} alt="" />
-                </Link>
+                  <span className="sr-only">(current)</span>
+                </Button>
               </li>
             </ul>
           </div>

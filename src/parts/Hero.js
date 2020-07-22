@@ -1,5 +1,5 @@
 import React from "react";
-import slider1 from "../assets/images/slider/slider1.jpg";
+// import slider1 from "../assets/images/slider/slider1.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -26,7 +26,7 @@ export default function Hero() {
             style={{ position: "relative" }}
           >
             <img
-              src={slider1}
+              src="..."
               className="d-block w-100"
               alt="..."
               style={{ position: "relative" }}

@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-export default function Pants({ data }) {
+export default function Pants({ dataPants }) {
   return (
     <section>
       <div className="container" id="pants">
@@ -10,7 +10,7 @@ export default function Pants({ data }) {
           className="row"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          {data.map((pant, index) => {
+          {dataPants.map((pant, index) => {
             return (
               <div className="col-sm-3" key={`pants${index}`}>
                 <Fade bottom delay={300 * index}>

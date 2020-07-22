@@ -1,15 +1,10 @@
 {
-  "hero": {
-    "hotels": 130,
-    "treasures": 1270,
-    "beach": 20
-  },
   "clothes": [
     {
       "_id": "asd1293uasdads1",
       "name": "Supreme",
       "price": "400.000",
-      "imageUrl": "/images/pants/pants1.jpg",
+      "imageUrl": "/images/clothes/clothes1.jpg",
       "country": "Indonesia",
       "city": "Garut",
       "unit": "Night"
@@ -18,7 +13,7 @@
       "_id": "asd1293uasdads1",
       "name": "Eiger",
       "price": "400.000",
-      "imageUrl": "/images/pants/pants2.jpg",
+      "imageUrl": "/images/clothes/clothes2.jpg",
       "country": "Indonesia",
       "city": "Garut",
       "unit": "Night"

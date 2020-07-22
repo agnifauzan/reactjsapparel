@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../elements/Button";
 
 export default function Footer() {
   return (
@@ -15,13 +16,20 @@ export default function Footer() {
               <h5 className="mt-4">For beginer</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-gropu-item">
-                  <Link to="http://"> new Acoount</Link>
+                  <Button type="link" href="#">
+                    New Account
+                  </Button>
+                  {/* <Link to="http://"> new Acoount</Link> */}
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://">Start Find Item</Link>
+                  <Button type="link" href="#">
+                    Start Find Item
+                  </Button>
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://">Use Payment</Link>
+                  <Button type="link" href="#">
+                    Use Payment
+                  </Button>
                 </li>
               </ul>
             </div>
@@ -29,13 +37,21 @@ export default function Footer() {
               <h5 className="mt-4">Explore</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-gropu-item">
-                  <Link to="http://"> Our Careers</Link>
+                  <Button type="link" href="#">
+                    Our Careers
+                  </Button>
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://"> Privacy</Link>
+                  {" "}
+                  <Button type="link" href="#">
+                    Privacy
+                  </Button>
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://"> Terms & Condition</Link>
+                  {" "}
+                  <Button type="link" href="#">
+                    Terms & Condition
+                  </Button>
                 </li>
               </ul>
             </div>
@@ -43,13 +59,19 @@ export default function Footer() {
               <h5 className="mt-4">Folow Me</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-gropu-item">
-                  <Link to="http://">Instargram</Link>
+                  <Button type="link" href="#">
+                    Instargram
+                  </Button>
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://">Facebook</Link>
+                  <Button type="link" href="#">
+                    Facebook
+                  </Button>
                 </li>
                 <li className="list-gropu-item">
-                  <Link to="http://"> Twitter</Link>
+                  <Button type="link" href="#">
+                    Twitter
+                  </Button>
                 </li>
               </ul>
             </div>
