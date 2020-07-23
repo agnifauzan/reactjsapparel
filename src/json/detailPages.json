@@ -1,0 +1,83 @@
+{
+  "_id": "asd1293uasdads",
+  "imageUrls": [
+    {
+      "_id": "asd1293uasdads1",
+      "url": "/images/shoes/shoes2.jpg",
+      "imageChild": [
+        {
+          "_id": "asd1293uasdads1",
+          "url": "/images/shoes/shoes2.jpg"
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "url": "/images/shoes/shoes2.jpg"
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "url": "/images/shoes/shoes2.jpg"
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "url": "/images/shoes/shoes2.jpg"
+        }
+      ]
+    }
+  ],
+  "name": "Nike",
+  "size": "42",
+  "kuantitas": "1",
+  "price": "400.000",
+  "isPopular": true,
+  "spesifikasi": [
+    {
+      "_id": "asd1293uas",
+      "header": "Feature Produk",
+      "items": [
+        { "_id": "1hh23h", "spec": "Sporting design" },
+        {
+          "_id": "1hh23h",
+          "spec": "leather inserts to improve the durability"
+        },
+        { "_id": "1hh23h", "spec": "comfort while maintaining a low profile" },
+        { "_id": "1hh23h", "spec": "It has a rubber sole" },
+        { "_id": "1hh23h", "spec": "American size (US)" }
+      ]
+    }
+  ],
+  "ourItems": [
+    {
+      "_id": "asd1293uasdads1",
+      "price": "300.000",
+      "name": "Flower",
+      "imageUrl": "/images/another/another1.jpg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "price": "1.000.000",
+      "name": "Nike",
+      "imageUrl": "/images/another/another2.jpg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "price": "200.000",
+      "name": "Nike",
+      "imageUrl": "/images/another/another3.jpg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "price": "900.000",
+      "name": "Calvin Clein",
+      "imageUrl": "/images/another/another4.jpg"
+    }
+  ],
+  "testimonial": {
+    "_id": "asd1293uasdads1",
+    "imageUrl": "/images/testimonial-detailspage.jpg",
+    "name": "Happy Family",
+    "rate": 4.7,
+    "content": "Very beautiful beaches, comfortable lodging and fun and exciting play tours...",
+    "familyName": "Angga",
+    "familyOccupation": "UI Designer"
+  }
+}

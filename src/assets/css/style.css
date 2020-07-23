@@ -11,7 +11,9 @@ nav {
 .navbar-brand {
   font-weight: 700;
   margin-right: 0px;
+  letter-spacing: 4px;
   margin-left: 0px;
+  padding-left: 0px;
   font-family: "Lobster", cursive;
   font-size: 30px;
 }
@@ -35,6 +37,10 @@ ul li a img:hover {
 
 /* start css carousel / hero slider */
 /* css slider react */
+
+.slick-list {
+  height: 550px;
+}
 .slick-slider {
   width: 1300px;
   margin-left: 20px;
@@ -86,7 +92,7 @@ ul li a img:hover {
 .gradient1 {
   position: absolute;
   width: 100%;
-  height: 511px;
+  height: 550px;
   margin-top: -8px;
   margin-left: 2px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.3));
@@ -170,6 +176,7 @@ ul li a img:hover {
   transform: scale(1.01);
   box-shadow: 0px 0px 7px black;
 }
+
 .card-img-top {
   height: 250px;
 }
@@ -247,6 +254,10 @@ footer h4 {
   font-weight: medium;
   font-size: 28px;
 }
+footer .col-4 a {
+  color: white;
+  letter-spacing: 4px;
+}
 footer p {
   font-size: 16px;
   font-weight: 300;
@@ -261,11 +272,16 @@ footer ul {
   list-style-type: none;
 }
 
-footer ul li a {
-  color: white;
+footer ul .list-group-item {
+  background-color: #312f32;
   font-weight: 300;
   font-size: 14px;
+  line-height: 5px;
 }
+footer ul .list-group-item a {
+  color: white;
+}
+
 footer ul li a:hover {
   color: white;
 }
@@ -315,13 +331,13 @@ footer ul li a:hover {
 
 form {
   height: 522px;
-  padding-left: 15px;
   border-radius: 5px;
-  padding-top: 20px;
+  padding-top: 80px;
   padding-left: 25px;
+  /* transition: 1s; */
 }
 form:hover {
-  box-shadow: 0px 0px 4px black;
+  box-shadow: 0px 0px 2px black;
 }
 
 form label {
@@ -492,3 +508,157 @@ ul .list-group-item {
   font-weight: 300;
 }
 /* end css finish */
+
+/* start css deskripsi Produk */
+.tab-wrap {
+  -webkit-transition: 0.3s box-shadow ease;
+  transition: 0.3s box-shadow ease;
+  border-radius: 6px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  background-color: #fff;
+  margin: 40px 0;
+}
+.tab-wrap:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.tab {
+  display: none;
+}
+.tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease,
+    0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease,
+    0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease,
+    0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease,
+    0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease,
+    0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+
+.tab:first-of-type:not(:last-of-type) + label {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.tab:not(:first-of-type):not(:last-of-type) + label {
+  border-radius: 0;
+}
+.tab:last-of-type:not(:first-of-type) + label {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.tab:checked + label {
+  background-color: #fff;
+  box-shadow: 0 -1px 0 #fff inset;
+  cursor: default;
+}
+.tab:checked + label:hover {
+  box-shadow: 0 -1px 0 #fff inset;
+  background-color: #fff;
+}
+.tab + label {
+  box-shadow: 0 -1px 0 #eee inset;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  -webkit-box-flex: 3;
+  flex-grow: 3;
+  text-align: center;
+  background-color: #f2f2f2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  -webkit-transition: 0.3s background-color ease, 0.3s box-shadow ease;
+  transition: 0.3s background-color ease, 0.3s box-shadow ease;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.tab + label:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 0 #f4f4f4 inset;
+}
+.tab__content {
+  padding: 10px 25px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+  left: 0;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  border-radius: 6px;
+}
+
+/* boring stuff */

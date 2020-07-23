@@ -10,7 +10,7 @@ import iconChart from "../assets/images/icon/iconChart.svg";
 
 import Fade from "react-reveal/Fade";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <Fade>
       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">

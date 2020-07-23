@@ -1,8 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
+import Button from "../elements/Button";
 
-export default function Clothes({ dataClothes }) {
+export default function Clothes({ dataClothes, refMostPicked }) {
   return (
     <section className="page-section" id="clothes" style={{ marginTop: 100 }}>
       <div className="container">
@@ -13,7 +13,11 @@ export default function Clothes({ dataClothes }) {
         >
           {dataClothes.map((cloth, index) => {
             return (
-              <div className="col-sm-3" key={`clothes${index}`}>
+              <div
+                className="col-sm-3"
+                key={`clothes${index}`}
+                ref={refMostPicked}
+              >
                 <Fade bottom delay={300 * index}>
                   <div className="card">
                     <img
@@ -23,7 +27,9 @@ export default function Clothes({ dataClothes }) {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                        <Link to="#">{cloth.name}</Link>
+                        <Button type="link" href={`properties/${cloth._id}`}>
+                          {cloth.name}
+                        </Button>
                       </h5>
                       <p className="card-text">Rp. {cloth.price}</p>
                     </div>

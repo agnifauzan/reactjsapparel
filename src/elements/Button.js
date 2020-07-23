@@ -51,7 +51,7 @@ export default function Button(props) {
     </button>
   );
 }
-Button.prototype = {
+Button.propTypes = {
   type: propTypes.oneOf(["button", "link"]),
   isPrimary: propTypes.bool,
   isSeccond: propTypes.bool,

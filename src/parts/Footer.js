@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Button from "../elements/Button";
+import BrandIcon from "../elements/BrandIcon";
 
 export default function Footer() {
   return (
@@ -9,24 +9,26 @@ export default function Footer() {
         <div className="container">
           <div className="row" style={{ borderBottom: 0.01 }}>
             <div className="col-4 mb-4">
-              <h4 className="mt-4">Apparel</h4>
+              <h4 className="mt-4">
+                {" "}
+                <BrandIcon style={{ color: "red" }}></BrandIcon>{" "}
+              </h4>
               <p>Clothing provider website with the best quality</p>
             </div>
             <div className="col-3 mb-4">
               <h5 className="mt-4">For beginer</h5>
               <ul className="list-group list-group-flush">
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     New Account
                   </Button>
-                  {/* <Link to="http://"> new Acoount</Link> */}
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Start Find Item
                   </Button>
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Use Payment
                   </Button>
@@ -36,18 +38,18 @@ export default function Footer() {
             <div className="col-3 mb-4">
               <h5 className="mt-4">Explore</h5>
               <ul className="list-group list-group-flush">
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Our Careers
                   </Button>
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   {" "}
                   <Button type="link" href="#">
                     Privacy
                   </Button>
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   {" "}
                   <Button type="link" href="#">
                     Terms & Condition
@@ -58,17 +60,17 @@ export default function Footer() {
             <div className="col-2 mb-4">
               <h5 className="mt-4">Folow Me</h5>
               <ul className="list-group list-group-flush">
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Instargram
                   </Button>
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Facebook
                   </Button>
                 </li>
-                <li className="list-gropu-item">
+                <li className="list-group-item">
                   <Button type="link" href="#">
                     Twitter
                   </Button>
