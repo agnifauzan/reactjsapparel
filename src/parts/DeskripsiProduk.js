@@ -3,18 +3,24 @@ import deskripsiNike from "../assets/images/deskripsiNike.jpg";
 
 export default function DeskripsiProduk() {
   return (
-    <div class="container">
-      <div class="tab-wrap">
-        <input type="radio" id="tab1" name="tabGroup1" class="tab" />
+    <div className="container">
+      <div className="tab-wrap">
+        <input type="radio" id="tab1" name="tabGroup1" className="tab" />
         <label for="tab1">Deskripsi</label>
 
-        <input type="radio" id="tab2" name="tabGroup1" class="tab" checked />
+        <input
+          type="radio"
+          id="tab2"
+          name="tabGroup1"
+          className="tab"
+          checked
+        />
         <label for="tab2">Spesifikasi</label>
 
-        <input type="radio" id="tab3" name="tabGroup1" class="tab" />
+        <input type="radio" id="tab3" name="tabGroup1" className="tab" />
         <label for="tab3">Ulasan</label>
 
-        <div class="tab__content">
+        <div className="tab__content">
           <h5>
             NIKE Men Quest 2 Shoe Sepatu Olahraga Pria - Black [CI3787-002
             US7-11 2002]
@@ -28,13 +34,13 @@ export default function DeskripsiProduk() {
           <img src={deskripsiNike} alt="" style={{ width: 500 }} />
         </div>
 
-        <div class="tab__content">
+        <div className="tab__content">
           <h5>
             NIKE Men Quest 2 Shoe Sepatu Olahraga Pria - Black [CI3787-002
             US7-11 2002]
           </h5>
-          <h5 class="pt-3">Spesifikasi Produk</h5>
-          <table class="table">
+          <h5 className="pt-3">Spesifikasi Produk</h5>
+          <table className="table">
             <tbody>
               <tr>
                 <th scope="row">Brand</th>
@@ -56,7 +62,7 @@ export default function DeskripsiProduk() {
           </table>
         </div>
 
-        <div class="tab__content">
+        <div className="tab__content">
           <h5>
             NIKE Men Quest 2 Shoe Sepatu Olahraga Pria - Black [CI3787-002
             US7-11 2002]

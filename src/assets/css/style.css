@@ -42,7 +42,7 @@ ul li a img:hover {
   height: 550px;
 }
 .slick-slider {
-  width: 1300px;
+  width: 97%;
   margin-left: 20px;
 }
 
@@ -71,7 +71,7 @@ ul li a img:hover {
 }
 .backgroundImage button {
   position: absolute;
-  left: 490px;
+  left: 565px;
   justify-content: center;
   top: 320px;
 }
@@ -79,13 +79,13 @@ ul li a img:hover {
 .backgroundImage h2 {
   color: white;
   position: absolute;
-  left: 400px;
+  left: 470px;
   top: 150px;
 }
 .backgroundImage p {
   color: white;
   position: absolute;
-  left: 460px;
+  left: 535px;
   top: 200px;
   text-align: center;
 }
